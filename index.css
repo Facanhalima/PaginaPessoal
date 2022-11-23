@@ -1,0 +1,30 @@
+.borda{
+
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+
+header{
+
+    text-align: center;
+    background-color: rgb(3, 3, 121);
+    margin: 0;
+
+}
+
+header div{
+
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    margin-left: 350px;
+
+}
+
+header h1{
+
+    text-align: center;
+    color: white;
+
+}
