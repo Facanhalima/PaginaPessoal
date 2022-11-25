@@ -17,7 +17,9 @@ header{
     background-color: rgb(3, 3, 121);
     margin: 0;
     width: 100%;
-    height: auto;
+    height: 100px;
+    align-content: center;
+    align-items: center;
 
 }
 
@@ -28,6 +30,7 @@ header div{
     height: 50%;
     margin: 0;
     left: 25%;
+    top: 25%;
 
 }
 
