@@ -10,15 +10,18 @@ header{
     text-align: center;
     background-color: rgb(3, 3, 121);
     margin: 0;
+    width: 100%;
+    height: auto;
 
 }
 
 header div{
 
+    position: relative;
     width: 50%;
     height: 50%;
     margin: 0;
-    margin-left: 350px;
+    left: 25%;
 
 }
 
