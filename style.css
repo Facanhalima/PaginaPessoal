@@ -27,10 +27,10 @@ header{
 header div{
 
     position: relative;
-    width: 50%;
+    width: 80%;
     height: 50%;
     margin: 0;
-    left: 25%;
+    left: 10%;
     top: 25%;
     align-self: center;
 
@@ -39,6 +39,7 @@ header div{
 header h1{
 
     text-align: center;
+    box-sizing: border-box;
     position: relative;
     color: white;
     top: 10%;
@@ -64,5 +65,29 @@ main{
 
     position: relative;
     margin-top: 5px;
+
+}
+
+@media screen and (max-width: 610px){
+
+    header div{
+
+        width: 100%;
+        left: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 490px){
+
+    header div{
+
+        width: 100%;
+        left: 0;
+        top: 14%;
+        height: auto;
+
+    }
 
 }
