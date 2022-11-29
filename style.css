@@ -5,7 +5,7 @@
 
 }
 
-.borda{
+.bord{
 
     border: 1px solid red;
     border-radius: 5px;
@@ -58,13 +58,30 @@ main{
 
     position: relative;
     box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.perfil{
+
+    display: none;
+
+}
+
+.fotoDePerfil{
+
+    width: 33%;
+    height: 400px;
+    left: 25%;
+    border-radius: 50%;
 
 }
 
 .lista li{
 
     position: relative;
-    margin-top: 5px;
+    margin-top: 10px;
 
 }
 
